@@ -1,0 +1,5 @@
+   Build using "D:/Vivado_2018_2/Vivado/2018.2/msys64/mingw64/bin/g++"
+   Compiling rgb_2_grayscale.cpp_pre.cpp.tb.cpp
+   Compiling apatb_image_filter.cpp
+   Compiling rgb_2_grayscale_tb.cpp_pre.cpp.tb.cpp
+   Generating cosim.tv.exe

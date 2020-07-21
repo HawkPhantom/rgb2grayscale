@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# xsim v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Jul 21 18:41:05 2020
+# Process ID: 24476
+# Current directory: C:/Resources/FPGA/IP/My_IPs/rgb_2_grayscale/solution1/sim/verilog
+# Command line: xsim.exe -mode tcl -source {xsim.dir/image_filter/xsim_script.tcl}
+# Log file: C:/Resources/FPGA/IP/My_IPs/rgb_2_grayscale/solution1/sim/verilog/xsim.log
+# Journal file: C:/Resources/FPGA/IP/My_IPs/rgb_2_grayscale/solution1/sim/verilog\xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/image_filter/xsim_script.tcl
+# xsim {image_filter} -autoloadwcfg -tclbatch {image_filter.tcl}
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source image_filter.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [0.00%] @ "125000"
+// RTL Simulation : 1 / 1 [100.00%] @ "37135000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 37175 ns : File "C:/Resources/FPGA/IP/My_IPs/rgb_2_grayscale/solution1/sim/verilog/image_filter.autotb.v" Line 480
+## quit
+INFO: [Common 17-206] Exiting xsim at Tue Jul 21 18:41:24 2020...

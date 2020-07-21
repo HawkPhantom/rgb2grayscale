@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="test.bmp" path="C:\Resources\FPGA\IP\My_IPs\rgb_2_grayscale\test.bmp"/>
+    <originFiles name="rgb_2_grayscale.hpp" path="C:\Resources\FPGA\IP\My_IPs\rgb_2_grayscale\rgb_2_grayscale.hpp"/>
+    <originFiles name="rgb_2_grayscale.cpp" path="C:\Resources\FPGA\IP\My_IPs\rgb_2_grayscale\rgb_2_grayscale.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="rgb_2_grayscale_tb.cpp" path="C:\Resources\FPGA\IP\My_IPs\rgb_2_grayscale\rgb_2_grayscale_tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

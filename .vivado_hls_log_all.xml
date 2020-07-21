@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [HLS 200-433] Loop - loop_wait_for_start has an initiation interval that is equal to the pipeline depth (1) - this results in an unpipelined loop." projectName="rgb_2_grayscale" solutionName="solution1" date="2020-07-21T18:34:19.422+0300" type="Warning"/>
+        <logs message="WARNING: [HLS 200-433] Loop - loop_wait_for_start has an initiation interval that is equal to the pipeline depth (1) - this results in an unpipelined loop." projectName="rgb_2_grayscale" solutionName="solution1" date="2020-07-21T18:34:19.144+0300" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-21] The critical path consists of the following:&#xD;&#xA;&#x9;'mul' operation ('r.V', D:/Vivado_2018_2/Vivado/2018.2/common/technology/autopilot/hls/hls_video_imgproc.h:1473->D:/Vivado_2018_2/Vivado/2018.2/common/technology/autopilot/hls/hls_video_imgproc.h:1514->D:/Vivado_2018_2/Vivado/2018.2/common/technology/autopilot/hls/hls_video_imgproc.h:1952) (3.36 ns)&#xD;&#xA;&#x9;'add' operation ('__Val2__', D:/Vivado_2018_2/Vivado/2018.2/common/technology/autopilot/hls/hls_video_imgproc.h:1477->D:/Vivado_2018_2/Vivado/2018.2/common/technology/autopilot/hls/hls_video_imgproc.h:1514->D:/Vivado_2018_2/Vivado/2018.2/common/technology/autopilot/hls/hls_video_imgproc.h:1952) (3.02 ns)&#xD;&#xA;&#x9;'add' operation ('r.V', D:/Vivado_2018_2/Vivado/2018.2/common/technology/autopilot/hls/hls_video_imgproc.h:1477->D:/Vivado_2018_2/Vivado/2018.2/common/technology/autopilot/hls/hls_video_imgproc.h:1514->D:/Vivado_2018_2/Vivado/2018.2/common/technology/autopilot/hls/hls_video_imgproc.h:1952) (3.02 ns)" projectName="rgb_2_grayscale" solutionName="solution1" date="2020-07-21T18:34:16.113+0300" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-21] Estimated clock period (9.4ns) exceeds the target (target clock period: 10ns, clock uncertainty: 1.25ns, effective delay budget: 8.75ns)." projectName="rgb_2_grayscale" solutionName="solution1" date="2020-07-21T18:34:16.082+0300" type="Warning"/>
+        <logs message="WARNING: [HLS 200-433] Loop - loop_wait_for_start has an initiation interval that is equal to the pipeline depth (1) - this results in an unpipelined loop." projectName="rgb_2_grayscale" solutionName="solution1" date="2020-07-21T18:34:15.565+0300" type="Warning"/>
+        <logs message="WARNING: [HLS 200-433] Loop - loop_wait_for_start has an initiation interval that is equal to the pipeline depth (1) - this results in an unpipelined loop." projectName="rgb_2_grayscale" solutionName="solution1" date="2020-07-21T18:34:15.148+0300" type="Warning"/>
+        <logs message="WARNING: [SYN 201-103] Legalizing function name 'CvtColor.1' to 'CvtColor_1'." projectName="rgb_2_grayscale" solutionName="solution1" date="2020-07-21T18:34:12.725+0300" type="Warning"/>
+        <logs message="WARNING: [SYN 201-103] Legalizing function name 'Block_Mat.exit47_pro' to 'Block_Mat_exit47_pro'." projectName="rgb_2_grayscale" solutionName="solution1" date="2020-07-21T18:34:12.687+0300" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-631] Renaming function 'Block_Mat.exit47_proc' to 'Block_Mat.exit47_pro' (rgb_2_grayscale/rgb_2_grayscale.cpp:6)" projectName="rgb_2_grayscale" solutionName="solution1" date="2020-07-21T18:34:12.618+0300" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-631] Renaming function 'hls::AXIvideo2Mat&lt;24, 2000, 2000, 4096>' to 'AXIvideo2Mat' (D:/Vivado_2018_2/Vivado/2018.2/common/technology/autopilot/hls/hls_video_io.h:49:9)" projectName="rgb_2_grayscale" solutionName="solution1" date="2020-07-21T18:34:11.060+0300" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-631] Renaming function 'hls::CvtColor&lt;HLS_BGR2GRAY, 4096, 0, 2000, 2000>' to 'CvtColor.1' (D:/Vivado_2018_2/Vivado/2018.2/common/technology/autopilot/hls/hls_video_imgproc.h:409:39)" projectName="rgb_2_grayscale" solutionName="solution1" date="2020-07-21T18:34:11.038+0300" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-631] Renaming function 'hls::CvtColor&lt;HLS_GRAY2RGB, 0, 4096, 2000, 2000>' to 'CvtColor' (D:/Vivado_2018_2/Vivado/2018.2/common/technology/autopilot/hls/hls_video_imgproc.h:617:39)" projectName="rgb_2_grayscale" solutionName="solution1" date="2020-07-21T18:34:11.007+0300" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-631] Renaming function 'hls::Mat2AXIvideo&lt;24, 2000, 2000, 4096>' to 'Mat2AXIvideo' (D:/Vivado_2018_2/Vivado/2018.2/common/technology/autopilot/hls/hls_video_io.h:78:50)" projectName="rgb_2_grayscale" solutionName="solution1" date="2020-07-21T18:34:10.975+0300" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-1103] Ignored data pack directive on non-struct variable 'img_0.data_stream.V' (rgb_2_grayscale/rgb_2_grayscale.cpp:6)." projectName="rgb_2_grayscale" solutionName="solution1" date="2020-07-21T18:34:06.905+0300" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-1103] Ignored data pack directive on non-struct variable 'img_1.data_stream.V' (rgb_2_grayscale/rgb_2_grayscale.cpp:7)." projectName="rgb_2_grayscale" solutionName="solution1" date="2020-07-21T18:34:06.598+0300" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-1103] Ignored data pack directive on non-struct variable 'img_2.data_stream.V' (rgb_2_grayscale/rgb_2_grayscale.cpp:8)." projectName="rgb_2_grayscale" solutionName="solution1" date="2020-07-21T18:34:06.567+0300" type="Warning"/>
+        <logs message="WARNING: [SYNCHK 200-23] D:/Vivado_2018_2/Vivado/2018.2/common/technology/autopilot/hls/hls_axi_io.h:78: variable-indexed range selection may cause suboptimal QoR." projectName="rgb_2_grayscale" solutionName="solution1" date="2020-07-21T18:34:05.981+0300" type="Warning"/>
+        <logs message="WARNING: [HLS 200-40] Skipped source file 'test.bmp'. Source files must have extensions .c, .C, .cc, .cpp, .c++, .cp, or .cxx." projectName="rgb_2_grayscale" solutionName="solution1" date="2020-07-21T18:33:20.449+0300" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

@@ -1,0 +1,160 @@
+INFO: [COSIM-47] Using XSIM for RTL simulation.
+INFO: [COSIM-14] Instrumenting C test bench ...
+   Build using "D:/Vivado_2018_2/Vivado/2018.2/msys64/mingw64/bin/g++"
+   Compiling rgb_2_grayscale.cpp_pre.cpp.tb.cpp
+   Compiling apatb_image_filter.cpp
+   Compiling rgb_2_grayscale_tb.cpp_pre.cpp.tb.cpp
+   Generating cosim.tv.exe
+INFO: [COSIM-302] Starting C TB testing ... 
+INFO: [COSIM-333] Generating C post check test bench ...
+INFO: [COSIM-12] Generating RTL test bench ...
+INFO: [COSIM-323] Starting verilog simulation. 
+INFO: [COSIM-15] Starting XSIM ...
+INFO: [COSIM-316] Starting C post checking ...
+
+C:\Resources\FPGA\IP\My_IPs\rgb_2_grayscale\solution1\sim\verilog>set PATH= 
+
+C:\Resources\FPGA\IP\My_IPs\rgb_2_grayscale\solution1\sim\verilog>call D:/Vivado_2018_2/Vivado/2018.2/bin/xelab xil_defaultlib.apatb_image_filter_top glbl -prj image_filter.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm --initfile "D:/Vivado_2018_2/Vivado/2018.2/data/xsim/ip/xsim_ip.ini" --lib "ieee_proposed=./ieee_proposed" -s image_filter  
+INFO: [XSIM 43-3496] Using init file passed via -initfile option "D:/Vivado_2018_2/Vivado/2018.2/data/xsim/ip/xsim_ip.ini".
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado_2018_2/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe xil_defaultlib.apatb_image_filter_top glbl -prj image_filter.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm --initfile D:/Vivado_2018_2/Vivado/2018.2/data/xsim/ip/xsim_ip.ini --lib ieee_proposed=./ieee_proposed -s image_filter 
+Multi-threading is on. Using 2 slave threads.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Resources/FPGA/IP/My_IPs/rgb_2_grayscale/solution1/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Resources/FPGA/IP/My_IPs/rgb_2_grayscale/solution1/sim/verilog/AESL_axi_s_INPUT_STREAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_s_INPUT_STREAM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Resources/FPGA/IP/My_IPs/rgb_2_grayscale/solution1/sim/verilog/AESL_axi_s_OUTPUT_STREAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_s_OUTPUT_STREAM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Resources/FPGA/IP/My_IPs/rgb_2_grayscale/solution1/sim/verilog/AESL_deadlock_detection_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_deadlock_detect_unit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Resources/FPGA/IP/My_IPs/rgb_2_grayscale/solution1/sim/verilog/AESL_deadlock_detector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_deadlock_detector
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Resources/FPGA/IP/My_IPs/rgb_2_grayscale/solution1/sim/verilog/AESL_deadlock_report_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_deadlock_report_unit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Resources/FPGA/IP/My_IPs/rgb_2_grayscale/solution1/sim/verilog/AESL_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Resources/FPGA/IP/My_IPs/rgb_2_grayscale/solution1/sim/verilog/AXIvideo2Mat.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AXIvideo2Mat
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Resources/FPGA/IP/My_IPs/rgb_2_grayscale/solution1/sim/verilog/Block_Mat_exit47_pro.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Block_Mat_exit47_pro
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Resources/FPGA/IP/My_IPs/rgb_2_grayscale/solution1/sim/verilog/CvtColor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CvtColor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Resources/FPGA/IP/My_IPs/rgb_2_grayscale/solution1/sim/verilog/CvtColor_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CvtColor_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Resources/FPGA/IP/My_IPs/rgb_2_grayscale/solution1/sim/verilog/fifo_w32_d2_A.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_w32_d2_A_shiftReg
+INFO: [VRFC 10-311] analyzing module fifo_w32_d2_A
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Resources/FPGA/IP/My_IPs/rgb_2_grayscale/solution1/sim/verilog/fifo_w32_d4_A.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_w32_d4_A_shiftReg
+INFO: [VRFC 10-311] analyzing module fifo_w32_d4_A
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Resources/FPGA/IP/My_IPs/rgb_2_grayscale/solution1/sim/verilog/fifo_w32_d5_A.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_w32_d5_A_shiftReg
+INFO: [VRFC 10-311] analyzing module fifo_w32_d5_A
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Resources/FPGA/IP/My_IPs/rgb_2_grayscale/solution1/sim/verilog/fifo_w8_d2_A.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_w8_d2_A_shiftReg
+INFO: [VRFC 10-311] analyzing module fifo_w8_d2_A
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Resources/FPGA/IP/My_IPs/rgb_2_grayscale/solution1/sim/verilog/image_filter.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_image_filter_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Resources/FPGA/IP/My_IPs/rgb_2_grayscale/solution1/sim/verilog/image_filter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module image_filter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Resources/FPGA/IP/My_IPs/rgb_2_grayscale/solution1/sim/verilog/image_filter_mac_cud.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module image_filter_mac_cud_DSP48_1
+INFO: [VRFC 10-311] analyzing module image_filter_mac_cud
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Resources/FPGA/IP/My_IPs/rgb_2_grayscale/solution1/sim/verilog/image_filter_mac_dEe.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module image_filter_mac_dEe_DSP48_2
+INFO: [VRFC 10-311] analyzing module image_filter_mac_dEe
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Resources/FPGA/IP/My_IPs/rgb_2_grayscale/solution1/sim/verilog/image_filter_mul_bkb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module image_filter_mul_bkb_DSP48_0
+INFO: [VRFC 10-311] analyzing module image_filter_mul_bkb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Resources/FPGA/IP/My_IPs/rgb_2_grayscale/solution1/sim/verilog/Mat2AXIvideo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mat2AXIvideo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Resources/FPGA/IP/My_IPs/rgb_2_grayscale/solution1/sim/verilog/start_for_CvtColoeOg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module start_for_CvtColoeOg_shiftReg
+INFO: [VRFC 10-311] analyzing module start_for_CvtColoeOg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Resources/FPGA/IP/My_IPs/rgb_2_grayscale/solution1/sim/verilog/start_for_CvtColog8j.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module start_for_CvtColog8j_shiftReg
+INFO: [VRFC 10-311] analyzing module start_for_CvtColog8j
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Resources/FPGA/IP/My_IPs/rgb_2_grayscale/solution1/sim/verilog/start_for_Mat2AXIfYi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module start_for_Mat2AXIfYi_shiftReg
+INFO: [VRFC 10-311] analyzing module start_for_Mat2AXIfYi
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Block_Mat_exit47_pro
+Compiling module xil_defaultlib.AXIvideo2Mat
+Compiling module xil_defaultlib.image_filter_mul_bkb_DSP48_0
+Compiling module xil_defaultlib.image_filter_mul_bkb(ID=1,NUM_ST...
+Compiling module xil_defaultlib.image_filter_mac_cud_DSP48_1
+Compiling module xil_defaultlib.image_filter_mac_cud(ID=1,NUM_ST...
+Compiling module xil_defaultlib.image_filter_mac_dEe_DSP48_2
+Compiling module xil_defaultlib.image_filter_mac_dEe(ID=1,NUM_ST...
+Compiling module xil_defaultlib.CvtColor_1
+Compiling module xil_defaultlib.CvtColor
+Compiling module xil_defaultlib.Mat2AXIvideo
+Compiling module xil_defaultlib.fifo_w32_d2_A_shiftReg
+Compiling module xil_defaultlib.fifo_w32_d2_A
+Compiling module xil_defaultlib.fifo_w32_d4_A_shiftReg
+Compiling module xil_defaultlib.fifo_w32_d4_A
+Compiling module xil_defaultlib.fifo_w32_d5_A_shiftReg
+Compiling module xil_defaultlib.fifo_w32_d5_A
+Compiling module xil_defaultlib.fifo_w8_d2_A_shiftReg
+Compiling module xil_defaultlib.fifo_w8_d2_A
+Compiling module xil_defaultlib.start_for_CvtColoeOg_shiftReg
+Compiling module xil_defaultlib.start_for_CvtColoeOg
+Compiling module xil_defaultlib.start_for_Mat2AXIfYi_shiftReg
+Compiling module xil_defaultlib.start_for_Mat2AXIfYi
+Compiling module xil_defaultlib.start_for_CvtColog8j_shiftReg
+Compiling module xil_defaultlib.start_for_CvtColog8j
+Compiling module xil_defaultlib.image_filter
+Compiling module xil_defaultlib.fifo(DEPTH=3328,WIDTH=24)
+Compiling module xil_defaultlib.fifo(DEPTH=3328,WIDTH=3)
+Compiling module xil_defaultlib.fifo(DEPTH=3328,WIDTH=1)
+Compiling module xil_defaultlib.AESL_axi_s_INPUT_STREAM
+Compiling module xil_defaultlib.AESL_axi_s_OUTPUT_STREAM
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detect_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_report_unit(PROC_N...
+Compiling module xil_defaultlib.AESL_deadlock_detector_1
+Compiling module xil_defaultlib.apatb_image_filter_top
+Compiling module work.glbl
+Built simulation snapshot image_filter
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Resources/FPGA/IP/My_IPs/rgb_2_grayscale/solution1/sim/verilog/xsim.dir/image_filter/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue Jul 21 18:41:04 2020...
+
+****** xsim v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/image_filter/xsim_script.tcl
+# xsim {image_filter} -autoloadwcfg -tclbatch {image_filter.tcl}
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source image_filter.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [0.00%] @ "125000"
+// RTL Simulation : 1 / 1 [100.00%] @ "37135000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 37175 ns : File "C:/Resources/FPGA/IP/My_IPs/rgb_2_grayscale/solution1/sim/verilog/image_filter.autotb.v" Line 480
+## quit
+INFO: [Common 17-206] Exiting xsim at Tue Jul 21 18:41:24 2020...
+INFO: [COSIM-1000] *** C/RTL co-simulation finished: PASS ***
+INFO: [COSIM-211] II is measurable only when transaction number is greater than 1 in RTL simulation. Otherwise, they will be marked as all NA. If user wants to calculate them, please make sure there are at least 2 transactions in RTL simulation.
