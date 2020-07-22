@@ -1,5 +1,5 @@
 # rgb2grayscale
-A Vivado HLS IP to convert 24 bit RGB data to 24 bit Grayscale data on AXI interface
+A Vivado HLS IP to convert 24 bit RGB data to Grayscale data on AXI interface
 
 ----------------------------------------
 
